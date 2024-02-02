@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "analytics"
+version = "0.1.0"
+description = ""
+authors = ["dataengineerx <data.engineerx@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+jupyter = "^1.0.0"
+pandas-datareader = "^0.10.0"
+matplotlib = "^3.8.2"
+quandl = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
